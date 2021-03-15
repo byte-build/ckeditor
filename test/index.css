@@ -1,0 +1,15 @@
+@font-face {
+	font-family: OperatorMono;
+	font-display: swap;
+	src: url('fonts/OperatorMono.otf') format('opentype');
+}
+
+*,
+::before,
+::after {
+	font-family: Inter, Arial, Helvetica, sans-serif !important;
+}
+
+code {
+	font-family: OperatorMono, monospace !important;
+}

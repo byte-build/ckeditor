@@ -1,0 +1,16 @@
+{
+	"root": true,
+	"plugins": ["prettier"],
+	"extends": ["eslint:recommended", "prettier"],
+	"rules": {
+		"no-throw-literal": 2,
+		"eqeqeq": [2, "always"]
+	},
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"env": {
+		"browser": true,
+		"es6": true
+	}
+}
