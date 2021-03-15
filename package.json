@@ -2,8 +2,8 @@
 	"name": "byte-ckeditor",
 	"description": "byte CKEditor 5 build",
 	"version": "1.0.1",
-	"main": "./lib/index.js",
-	"types": "./types/index.d.ts",
+	"main": "lib/index.js",
+	"types": "types/index.d.ts",
 	"scripts": {
 		"prepublishOnly": "npm run build",
 		"build": "webpack"
