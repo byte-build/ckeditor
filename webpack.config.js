@@ -7,7 +7,7 @@ const CKEditorWebpackPlugin = require('@ckeditor/ckeditor5-dev-webpack-plugin')
 const { bundler, styles } = require('@ckeditor/ckeditor5-dev-utils')
 
 module.exports = {
-	devtool: 'source-map',
+	mode: 'production',
 	performance: { hints: false },
 	entry: resolve('src', 'index.js'),
 	output: {
