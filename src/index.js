@@ -16,7 +16,6 @@ import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight'
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline'
 import Image from '@ckeditor/ckeditor5-image/src/image'
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption'
-import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert'
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize'
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle'
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar'
@@ -34,7 +33,6 @@ import Mention from '@ckeditor/ckeditor5-mention/src/mention'
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph'
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice'
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat'
-import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter'
 import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters'
 import SpecialCharactersArrows from '@ckeditor/ckeditor5-special-characters/src/specialcharactersarrows'
 import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency'
@@ -72,7 +70,6 @@ Editor.builtinPlugins = [
 	HorizontalLine,
 	Image,
 	ImageCaption,
-	ImageInsert,
 	ImageResize,
 	ImageStyle,
 	ImageToolbar,
@@ -90,7 +87,6 @@ Editor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	RemoveFormat,
-	SimpleUploadAdapter,
 	SpecialCharacters,
 	SpecialCharactersArrows,
 	SpecialCharactersCurrency,
@@ -136,7 +132,7 @@ Editor.defaultConfig = {
 			'insertTable',
 			'code',
 			'codeBlock',
-			'imageInsert',
+			'uploadImage',
 			'mediaEmbed',
 			'|',
 			'horizontalLine',
