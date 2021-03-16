@@ -28,7 +28,6 @@ import Link from '@ckeditor/ckeditor5-link/src/link'
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage'
 import List from '@ckeditor/ckeditor5-list/src/list'
 import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle'
-import Markdown from '@ckeditor/ckeditor5-markdown-gfm/src/markdown'
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed'
 import MediaEmbedToolbar from '@ckeditor/ckeditor5-media-embed/src/mediaembedtoolbar'
 import Mention from '@ckeditor/ckeditor5-mention/src/mention'
@@ -85,7 +84,6 @@ Editor.builtinPlugins = [
 	LinkImage,
 	List,
 	ListStyle,
-	Markdown,
 	MediaEmbed,
 	MediaEmbedToolbar,
 	Mention,
@@ -116,12 +114,13 @@ Editor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
-			'fontSize',
 			'|',
 			'bold',
 			'italic',
 			'underline',
 			'strikethrough',
+			'|',
+			'fontSize',
 			'fontColor',
 			'fontBackgroundColor',
 			'highlight',
@@ -140,6 +139,7 @@ Editor.defaultConfig = {
 			'imageInsert',
 			'mediaEmbed',
 			'|',
+			'horizontalLine',
 			'blockQuote',
 			'subscript',
 			'superscript',
